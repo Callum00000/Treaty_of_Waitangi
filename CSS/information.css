@@ -1,0 +1,46 @@
+#wrapper1{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1.5fr;
+    grid-template-areas: "header1 header1 header1"
+                    "image main main"
+                    "image main main"
+                    "footer footer footer";
+}
+
+}
+#header1{
+    grid-area: header1;
+    text-align: center;
+    
+}
+#image1{
+    grid-area: image;
+}
+#h2{
+    grid-area: main;
+    
+}
+
+#footer1{
+    grid-area: footer;
+    
+}
+body{
+    background-color: beige;
+    color: black;
+    text-decoration-color:saddlebrown;
+}
+h1{
+   font-size: 35px;
+    text-decoration:inherit;
+    text-decoration-color: Black;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 23px; 
+}
+ul{
+    font-size: 25px;
+}
